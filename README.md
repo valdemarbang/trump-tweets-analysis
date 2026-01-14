@@ -36,6 +36,5 @@ Unlike observations from the 2017-2020 presidency regarding Twitter, this projec
 
 ## Limitations
 
-* **Sample Size:** Some high-performing keywords (e.g., "btc", "cryptocurrency") appeared very infrequently (1 post each) in the analyzed timeframe, making the ROI less reliable[cite: 95, 96].
-* **Sentiment Tool:** VADER is rule-based and may not accurately interpret specific "crypto-slang" (e.g., HODL, FUD), which limits the accuracy of comment sentiment analysis[cite: 98].
-
+* **Sample Size:** Some of the keywords like "btc", "bear", or "cryptocurrency" only have a very small sample size (1 post). Which makes the ROI less reliable for those keywords. 
+* **Sentiment Tool:** VADER might not be suitable for this project, and it might be better to use a machine learning algorithm instead to analyse the sentiment score. The problem with VADER is that it is rule-based, which mean that it might not handle specific "crypto-slang", such terms as "HODL", "Moon" or "FUD", potentially skewing the sentiment for the comments.
